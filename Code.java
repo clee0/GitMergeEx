@@ -1,13 +1,13 @@
 public class TheMotivator {
 	public void feedback(int score) {
 		if (score == 100)
-			System.out.println("You're awesome");
+			System.out.println("You are okay.");
 		else if (score > 90)
-			System.out.println("That's great");
+			System.out.println("That's not so good.");
 		else if (score > 60)
-			System.out.println("That's good ");
+			System.out.println("That's pretty bad.");
 		else
-			System.out.println("Well, what can I say?");
+			System.out.println("Get out of my house.");
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
