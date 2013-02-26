@@ -3,7 +3,16 @@ public class TheMotivator {
 		if (score == 100)
 			System.out.println("You are okay.");
 		else if (score > 90)
+
 			System.out.println("That's not so good.");
+
+		
+		// New Input
+		else if (score > 80)
+			System.out.println("Not bad");
+		//
+		
+
 		else if (score > 60)
 			System.out.println("That's pretty bad.");
 		else
@@ -14,3 +23,5 @@ public class TheMotivator {
 		tm.feedback(60);
 	}
 }
+
+// Some comment
